@@ -1,0 +1,55 @@
+* {
+    
+}
+
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    background-color: #E5D5CB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 10px;
+}
+
+.bouton {
+    text-decoration: none;
+    color: #403932;
+}
+
+.bouton:hover {
+    background-color: #BFAA7F;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 1px black;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url(Assets/imgHero.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+
+h1 {
+    margin: 0;
+}
+
