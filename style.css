@@ -120,7 +120,7 @@ img {
 
 
 .hovertext {
-  position: relative;
+  position:relative;
 }
 
 .hovertext:before {
