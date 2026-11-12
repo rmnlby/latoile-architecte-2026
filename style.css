@@ -60,6 +60,10 @@ h1 {
     left: 60px;
 }
 
+h2 {
+    margin: 24px 0;
+}
+
 .boutonhero {
     text-decoration: none;
     color: #403932;
@@ -86,13 +90,11 @@ h1 {
     left: 60px;
 }
 
-.logo {
+.logo, img {
     width: 150px;
 }
 
-img {
-    width: 300px;
-}
+
 
 .projets {
     display: flex;
@@ -163,8 +165,8 @@ img {
 /* F_ooter OK */
 
 footer {
-     background-color:lightgray;
-     padding: 2px;
+    background-color: lightgray;
+    padding: 2px;
 }
 
 .footer {
@@ -208,8 +210,12 @@ footer {
     margin: 0;
 }
 
+
+
+
 .card {
     width: 290px;
+
     img {
         width: 100%;
         position: absolute;
@@ -217,25 +223,27 @@ footer {
         left: 0;
         z-index: 1;
     }
+
     .hover {
         position: relative;
         min-height: 200px;
+
         p {
-             background-color: rgba(229,213,203, 0.7);
+            background-color: rgba(229, 213, 203, 0.7);
             margin: 0;
             z-index: 0;
             position: absolute;
             min-height: 200px;
+
         }
+
         &:hover {
             p {
                 font-weight: bold;
-                text-align: center;
+                display: flex;
+                align-items: center;
                 z-index: 9;
             }
         }
     }
 }
-
-
-
