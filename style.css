@@ -27,7 +27,7 @@ header {
     display: flex;
     gap: 24px;
     list-style: none;
-    margin: 10px;
+    margin: 20px;
 }
 
 .bouton {
@@ -40,7 +40,6 @@ header {
     padding: 5px;
     border-radius: 20px;
     border: solid 1px black;
-    font-weight: bold;
 }
 
 .hero {
@@ -94,8 +93,6 @@ h2 {
     width: 150px;
 }
 
-
-
 .projets {
     display: flex;
     justify-content: center;
@@ -111,8 +108,6 @@ h2 {
 .tproj {
     text-align: center;
 }
-
-/* pro_messes OK */
 
 .listep {
     display: flex;
@@ -132,15 +127,14 @@ h2 {
 
 .promesses {
     display: flex;
+    min-height: 200px;
 }
-
-
-/* pre_tations OK */
 
 .prestations {
     display: flex;
     justify-content: center;
     gap: 15px;
+    min-height: 200px;
 }
 
 .imgpresta {
@@ -152,17 +146,13 @@ h2 {
     text-align: center;
 }
 
-/* Témoignage OK */
-
 .temoin {
     display: flex;
     gap: 15px;
     flex-flow: row;
     text-align: center;
+    min-height: 200px;
 }
-
-
-/* F_ooter OK */
 
 footer {
     background-color: lightgray;
@@ -177,11 +167,6 @@ footer {
 
 .imgfooter {
     width: 150px;
-}
-
-.hfooter {
-    margin: 5px;
-    text-align: center;
 }
 
 .contact {
@@ -204,6 +189,7 @@ footer {
 .reseau {
     display: flex;
     justify-content: space-evenly;
+    margin: 5px;
 }
 
 .logo {
