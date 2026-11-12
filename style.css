@@ -196,6 +196,18 @@ footer {
     margin: 0;
 }
 
+.fa-linkedin, .fa-facebook {
+    color: darkblue;
+}
+
+.fa-x-twitter {
+    color: black;
+}
+
+.fa-instagram {
+    color:rgb(232, 69, 196);
+}
+
 /* .trust {
     border: #403932 solid 4px;
     margin: 10px;
