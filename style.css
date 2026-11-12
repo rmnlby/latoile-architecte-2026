@@ -22,6 +22,12 @@ header {
     top: 0;
     z-index: 9999;
 }
+section{
+    padding-bottom: 50px;
+}
+.margin-bottom{
+    margin-bottom: 50px ;
+}
 
 .navigation {
     display: flex;
@@ -79,7 +85,7 @@ h1 {
 }
 
 h2 {
-    margin: 24px 0;
+    margin: 30px 0;
 }
 
 .boutonhero {
@@ -122,6 +128,7 @@ h2 {
 .imgproj {
     width: 290px;
     height: 200px;
+    object-fit: cover;
 }
 
 .tproj {
@@ -132,7 +139,7 @@ h2 {
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-    list-style: none;
+    list-style:none;
     align-items: flex-start;
     padding: 0;
 }
@@ -142,6 +149,7 @@ h2 {
     height: 380px;
     display: flex;
     padding: 0 0 0 90px;
+    object-fit: cover;
 }
 
 .promesses {
@@ -188,21 +196,44 @@ footer {
     width: 150px;
 }
 
+.mail {
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.mail::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #403932;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+ 
+.mail:hover::after {
+  width: 100%;
+  animation: heartbeat116 1.5s ease-in-out 0.3s infinite;
+}
+ 
+@keyframes heartbeat116 {
+  0%, 100% {
+    width: 100%;
+  }
+  50% {
+    width: 60%;
+  }
+}
+
 .contact {
     display: flex;
     flex-direction: column;
 }
 
-.mail {
-    text-decoration: none;
-    color: #403932;
-}
-
-.mail:hover {
-    background-color: #BFAA7F;
-    border: solid 1px #403932;
-    border-radius: 20px;
-    padding: 2px;
+.fa-play {
+    margin-right: 10px;
 }
 
 .reseau {
@@ -227,18 +258,27 @@ footer {
     color:rgb(232, 69, 196);
 }
 
-/* .trust {
-    border: #403932 solid 4px;
+.trust {
+    border: rgb(175, 175, 175) solid 1px;
+    background-color: rgba(239, 239, 239, 0.831);
     margin: 10px;
     border-radius: 10px;
 }
 
 .psq {
     margin: 5px;
-} */
+}
+
+.testy, .colora {
+    background-color: #fff0e7;
+}
+
+.fa-quote-left {
+    color: royalblue;
+}
 
 .card {
-    width: 290px;
+    width: 420px;
 
     img {
         width: 100%;
@@ -267,8 +307,9 @@ footer {
                 display: flex;
                 align-items: center;
                 z-index: 9;
-                padding: 0 5px;
+                padding: 0 10px;
             }
         }
     }
 }
+
