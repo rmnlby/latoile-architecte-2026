@@ -100,17 +100,45 @@ img {
     flex-wrap: wrap
 }
 
+/* pro_messes OK */
+
+.listep {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.imgpro {
+    width: 290px;
+    height: 380px;
+    display: flex;
+    padding: 0 0 0 90px;
+}
+
 .promesses {
     display: flex;
 }
 
+
+/* pre_tations OK */
+
 .prestations {
     display: flex;
+    justify-content: center;
     gap: 15px;
 }
 
+.imgpresta {
+    width: 290px;
+    height: 200px;
+}
 
-
+.tpresta {
+    text-align: center;
+}
 
 /* Témoignage OK */
 
@@ -126,6 +154,7 @@ img {
 
 footer {
      background-color:lightgray;
+     padding: 2px;
 }
 
 .footer {
@@ -158,6 +187,10 @@ footer {
     border: solid 1px #403932;
     border-radius: 20px;
     padding: 2px;
+}
+
+.logo {
+    margin: 0;
 }
 
 /* .hovertext {
