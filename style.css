@@ -176,7 +176,6 @@ h2 {
 .temoin {
     display: flex;
     gap: 15px;
-    flex-flow: row;
     text-align: center;
     min-height: 200px;
 }
@@ -263,6 +262,8 @@ footer {
     background-color: rgba(239, 239, 239, 0.831);
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 7px 5px 5px #403932;
+    width: 70%;
 }
 
 .psq {
