@@ -208,7 +208,31 @@ footer {
     margin: 0;
 }
 
+.card {
+    border: solid 1px black;
+    width: 290px;
+    img {
 
+        position: absolute;
+        top: 635px;
+        z-index: 1;
+    }
+    .hover {
+        position: relative;
+        min-height: 290px;
+        p {
+            background-color: rgba(#E5D5CB,#E5D5CB,#E5D5CB, 0.4);
+            margin: 0;
+            z-index: 0;
+            position: absolute;
+        }
+        &:hover {
+            p {
+                z-index: 9;
+            }
+        }
+    }
+}
 
 
 
