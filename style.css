@@ -209,25 +209,28 @@ footer {
 }
 
 .card {
-    border: solid 1px black;
     width: 290px;
     img {
-
+        width: 100%;
         position: absolute;
-        top: 635px;
+        top: 0;
+        left: 0;
         z-index: 1;
     }
     .hover {
         position: relative;
-        min-height: 290px;
+        min-height: 200px;
         p {
-            background-color: rgba(#E5D5CB,#E5D5CB,#E5D5CB, 0.4);
+             background-color: rgba(229,213,203, 0.7);
             margin: 0;
             z-index: 0;
             position: absolute;
+            min-height: 200px;
         }
         &:hover {
             p {
+                font-weight: bold;
+                text-align: center;
                 z-index: 9;
             }
         }
