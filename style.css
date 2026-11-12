@@ -96,8 +96,18 @@ img {
 
 .projets {
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 50px;
     flex-wrap: wrap
+}
+
+.imgproj {
+    width: 290px;
+    height: 200px;
+}
+
+.tproj {
+    text-align: center;
 }
 
 /* pro_messes OK */
@@ -187,6 +197,11 @@ footer {
     border: solid 1px #403932;
     border-radius: 20px;
     padding: 2px;
+}
+
+.reseau {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .logo {
