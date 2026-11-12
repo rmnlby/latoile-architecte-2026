@@ -43,7 +43,7 @@ header {
 }
 
 .hero {
-    background-image: url(Assets/imgHero.png);
+    background-image: url(Assets/salon-2.webp);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -196,8 +196,15 @@ footer {
     margin: 0;
 }
 
+/* .trust {
+    border: #403932 solid 4px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
-
+.psq {
+    margin: 5px;
+} */
 
 .card {
     width: 290px;
@@ -217,7 +224,7 @@ footer {
         p {
             background-color: rgba(229, 213, 203, 0.7);
             margin: 0;
-            z-index: 0;
+            display: none;
             position: absolute;
             min-height: 200px;
 
@@ -229,6 +236,7 @@ footer {
                 display: flex;
                 align-items: center;
                 z-index: 9;
+                padding: 0 5px;
             }
         }
     }
