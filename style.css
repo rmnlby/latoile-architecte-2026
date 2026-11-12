@@ -109,6 +109,11 @@ img {
     gap: 15px;
 }
 
+
+
+
+/* Témoignage OK */
+
 .temoin {
     display: flex;
     gap: 15px;
@@ -117,9 +122,45 @@ img {
 }
 
 
+/* F_ooter OK */
 
+footer {
+     background-color:lightgray;
+}
 
-.hovertext {
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgfooter {
+    width: 150px;
+}
+
+.hfooter {
+    margin: 5px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail {
+    text-decoration: none;
+    color: #403932;
+}
+
+.mail:hover {
+    background-color: #BFAA7F;
+    border: solid 1px #403932;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+/* .hovertext {
   position:relative;
 }
 
@@ -144,4 +185,7 @@ img {
 .hovertext:hover:before {
   opacity: 0.5;
   visibility: visible;
-}
+} */
+
+
+
