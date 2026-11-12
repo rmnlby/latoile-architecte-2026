@@ -31,15 +31,34 @@ header {
 }
 
 .bouton {
-    text-decoration: none;
-    color: #403932;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
 }
-
-.bouton:hover {
-    background-color: #BFAA7F;
-    padding: 5px;
-    border-radius: 20px;
-    border: solid 1px black;
+ 
+.bouton::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #403932;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+ 
+.bouton:hover::after {
+  width: 100%;
+  animation: heartbeat116 1.5s ease-in-out 0.3s infinite;
+}
+ 
+@keyframes heartbeat116 {
+  0%, 100% {
+    width: 100%;
+  }
+  50% {
+    width: 60%;
+  }
 }
 
 .hero {
